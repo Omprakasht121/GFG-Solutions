@@ -1,6 +1,11 @@
+// User function Template for Java
 class Solution {
-    public int factorial(int n) {
-        if(n ==0) return 1;
-        return  (n * factorial(n-1));
+    public static int nFactorial(int n) {
+        if(n==0) return 1;
+
+        // Write your code here
+        
+
+        return n * nFactorial(n-1);
     }
 }
